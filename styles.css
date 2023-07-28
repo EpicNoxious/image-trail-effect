@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: #F5F2EE;
+}
+
+.content {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content__img {
+  width: 13vw;
+  height: 13vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #F5F2EE;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 3vw;
+}
+
+/*# sourceMappingURL=styles.css.map */
